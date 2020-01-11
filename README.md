@@ -54,7 +54,7 @@ Request: {
   "firstName": String|Required,
   "lastName": String|Required,
   "age": Number|Required,
-  "firstName": String|Required,
+  "country": String|Required,
 }
 
 Response: Newly Added EIT
@@ -79,7 +79,7 @@ Request: {
   "firstName": String|Optional,
   "lastName": String|Optional,
   "age": Number|Optional,
-  "firstName": String|Optional,
+  "country": String|Optional,
 }
 
 Response: Updated EIT

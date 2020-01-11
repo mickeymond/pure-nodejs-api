@@ -2,6 +2,35 @@
 
 It a pure nodejs api using an express-like library a hacked out
 
+## Folders and Files
+
+1. The ```/lib``` folder
+
+```
+The is the folder that holds the mini express-like library.
+You can temper with it if you know what you are doing
+```
+
+2. The ```/src``` folder
+
+```
+The is the folder that holds your api files which will be imported into index.js
+This is all yours
+```
+
+3. The ```index.js``` file
+
+```
+This is the file that starts your api.
+This is all yours as well
+```
+
+4. The ```/README.md``` folder
+
+```
+Contains clear documentation on how to go about things.
+```
+
 ## Installation
 
 1. Clone the repository

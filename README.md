@@ -1,6 +1,6 @@
 # Pure NodeJS API: EITs Management App
 
-It a pure nodejs api using an express-like library a hacked out
+It's a pure nodejs api using an express-like library I hacked out
 
 ## Folders and Files
 

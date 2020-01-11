@@ -25,7 +25,7 @@ This is the file that starts your api.
 This is all yours as well
 ```
 
-4. The ```/README.md``` folder
+4. The ```/README.md``` file
 
 ```
 Contains clear documentation on how to go about things.
@@ -47,7 +47,6 @@ Contains clear documentation on how to go about things.
 cd pure-nodejs-api
 ```
 
-
 ## Usage
 
 1. Start the Server
@@ -60,6 +59,62 @@ node index.js
 
 ```
 http://localhost:3000
+```
+
+## What can I do with it?
+1. Start a NodeJS HTTP Server
+
+```
+const appServer = require('./lib');
+
+const app = appServer();
+```
+
+2. Register Routes with Handlers [GET, POST, PUT, DELETE]
+
+```
+app.get('/', (req, res) => {
+  // Business Logic goes here
+
+  // Return some JSON response
+  res.status(200).json({
+    message: "I really like what I am seeing"
+  });
+});
+```
+
+## API
+
+1. Application ```app```
+
+```
+app.listen(port<Number>, callback<Function>)
+
+app.get(path<String>, handler<Function<req, res>>)
+
+app.post(path<String>, handler<Function<req, res>>)
+
+app.put(path<String>, handler<Function<req, res>>)
+
+app.delete(path<String>, handler<Function<req, res>>)
+```
+
+2. Request ```req```
+
+```
+req.params
+
+req.query
+
+req.body
+```
+
+3. Response ```res```
+
+```
+res.json(response<Object>)
+
+res.status(code<Number>)
 ```
 
 ## Testing All Endpoints
@@ -123,3 +178,11 @@ Request: None
 
 Response: Deleted Success
 ```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

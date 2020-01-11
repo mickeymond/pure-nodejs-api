@@ -1,4 +1,4 @@
-const appServer = require('./lib/index');
+const appServer = require('./lib');
 const { getAllEITs, addEIT, getEIT, updateEIT, deleteEIT } = require('./src/controllers');
 
 const app = appServer();

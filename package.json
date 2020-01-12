@@ -1,0 +1,23 @@
+{
+  "name": "pure-nodejs-app",
+  "version": "1.0.0",
+  "description": "It's a pure nodejs api using an express-like library I hacked out",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "npm start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickeymond/pure-nodejs-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mickeymond/pure-nodejs-api/issues"
+  },
+  "homepage": "https://github.com/mickeymond/pure-nodejs-api#readme"
+}

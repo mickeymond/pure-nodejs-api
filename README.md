@@ -25,7 +25,14 @@ This is the file that starts your api.
 This is all yours as well
 ```
 
-4. The ```/README.md``` file
+4. The ```package.json``` file
+
+```
+All the package.json is doing right now is helping to deploy to services like heroku.
+Not for managing dependencies
+```
+
+5. The ```README.md``` file
 
 ```
 Contains clear documentation on how to go about things.

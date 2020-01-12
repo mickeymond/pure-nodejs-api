@@ -16,4 +16,4 @@ app.delete('/:id', deleteEIT);
 
 app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
-})
+});

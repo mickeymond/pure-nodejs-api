@@ -129,7 +129,7 @@ res.status(code<Number>)
 1. Get all EITS => GET /
 
 ```
-Endpoint: http://localhost:3000
+Endpoint: http://localhost:3000 or https://pure-nodejs-api.herokuapp.com
 
 Request: None
 
@@ -139,7 +139,7 @@ Response: Array of EITS
 2. Add an EIT => POST /
 
 ```
-Endpoint: http://localhost:3000
+Endpoint: http://localhost:3000 or https://pure-nodejs-api.herokuapp.com
 
 Request: {
   "firstName": String|Required,
@@ -154,7 +154,7 @@ Response: Newly Added EIT
 3. Get an EIT => GET /id
 
 ```
-Endpoint: http://localhost:3000/id
+Endpoint: http://localhost:3000/id or https://pure-nodejs-api.herokuapp.com/id
 
 Request: None
 
@@ -164,7 +164,7 @@ Response: EIT with the provided id
 4. Update an EIT => PUT /id
 
 ```
-Endpoint: http://localhost:3000/id
+Endpoint: http://localhost:3000/id or https://pure-nodejs-api.herokuapp.com/id
 
 Request: {
   "firstName": String|Optional,
@@ -179,7 +179,7 @@ Response: Updated EIT
 5. Deleted an EIT => DELETE /id
 
 ```
-Endpoint: http://localhost:3000/id
+Endpoint: http://localhost:3000/id or https://pure-nodejs-api.herokuapp.com/id
 
 Request: None
 

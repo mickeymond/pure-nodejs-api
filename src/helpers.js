@@ -147,5 +147,6 @@ const generateUuid = () => {
 
 // Module to exports
 module.exports = {
-  dataService
+  dataService,
+  generateUuid
 };

@@ -1,5 +1,5 @@
+process.env.PORT = process.env.PORT || 3000;
 const appServer = require('../lib');
-const PORT = process.env.PORT || 3000;
 const { getEITs, addEIT, getEIT, updateEIT, deleteEIT, ping } = require('./controllers');
 
 // Starting the App Server
@@ -22,6 +22,6 @@ app.put('/eits/:id', updateEIT);
 app.delete('/eits/:id', deleteEIT);
 
 // Listenning to PORT
-app.listen(PORT, () => {
-  console.log(`Server started on port ${PORT}`);
+app.listen(process.env.PORT, () => {
+  console.log(`Server started on port ${process.env.PORT}`);
 });
